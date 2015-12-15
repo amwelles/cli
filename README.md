@@ -61,11 +61,11 @@ You can now run the bleeding-edge version of Terminus via:
 
 **Optionally**, for ease of development, we suggest aliasing or setting the path to this script in your Bash configuration file. This file is located at ~/.bashrc on Linux and ~/.bash_profile on Mac.
 ```bash
-alias terminus="$HOME/pantheon-cli/bin/terminus"
+alias terminus="$HOME/vendor/pantheon-systems/cli/bin/terminus"
 ```
 or
 ```bash
-export PATH="$PATH:$HOME/pantheon-cli/bin"
+export PATH="$HOME/vendor/pantheon-systems/cli/bin"
 ```
 Once you source the file or restart your terminal client, you can now make use of Terminus using
 ```bash
